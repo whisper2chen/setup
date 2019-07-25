@@ -22,24 +22,27 @@ ubuntu 安装开发环境
   `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
   
 ### zsh配置文件
+#### 主题
   `ZSH_THEME="ys"`
-  `
-    plugins=(
+#### 插件
+  `plugins=(
     git
     fasd
     zsh-syntax-highlighting
     zsh-autosuggestions
-  )
-  `
-  
-  
----
-
-
+  )` 
+    
+    
 ## fzf
-  #### 安装
-    `git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf`
-    `~/.fzf/install`
-  #### 配置文件
-    `export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --preview '(highlight -O ansi {} || cat {}) 2> /dev/null | head -500'"`
+#### 安装
+  `git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf`
+    
+  `~/.fzf/install`
+      
+      
+#### 配置文件
+  `export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --preview '(highlight -O ansi {} || cat {}) 2> /dev/null | head -500'"`
+  
+  
+  
   
