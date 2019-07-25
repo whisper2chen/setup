@@ -3,7 +3,7 @@ ubuntu 安装开发环境
 
 
 ## 常用基础工具
-`sudo apt-get install -y vim git curl silversearcher-ag`
+`sudo apt-get install -y vim git curl build-essential silversearcher-ag`
 
 ---
 
