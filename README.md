@@ -14,7 +14,7 @@ ubuntu 安装开发环境
 ### oh-my-zsh
   `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
   
-#### zsh插件安装
+#### zsh插件安装   [更多插件](https://github.com/unixorn/awesome-zsh-plugins)
 #### zsh-syntax-highlighting
   `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
   
