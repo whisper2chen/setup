@@ -31,3 +31,7 @@ sudo apt install neovim
 git clone https://github.com/whisper2chen/nvim.git  ~/.config/nvim
 nvim +PlugInstall +qall
 ```
+
+
+### 插件
+参考[nvim打造golang开发环境](https://www.mrsong.me/2019/12/29/nvim/)
