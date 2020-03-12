@@ -34,3 +34,9 @@ ZSH_THEME="simple"
 ```sh
 plugins=( git zsh-syntax-highlighting zsh-autosuggestions )
 ```
+
+#### 修改shell
+```sh
+ps #查看当前的shell
+chsh -s /bin/zsh #修改shell为zsh
+```
