@@ -27,6 +27,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 #### 主题
 ```sh
+ZSH_THEME="robbyrussell"  # default
 ZSH_THEME="ys"
 ZSH_THEME="simple"
 ```
